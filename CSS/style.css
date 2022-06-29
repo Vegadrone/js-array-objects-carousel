@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(200, 205, 179);
+    font-family: sans-serif;
+}
+
+.t-white{
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;    
+}
+
+h1{
+    position: absolute;
+    right:25px;
+    top:40px;
+}
+
+p{
+    position: absolute;
+    right: 25px;
+    top: 90px;
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    object-fit: cover;
+    object-position: bottom;
+    
+}
+
+.thumbnails{
+    display: flex;
+    width: 1400px;
+    height:150px;
+    position: absolute;
+    top:600px;
+    
+}
+
+.thumbnails img{
+    object-fit: cover;
+    z-index: 1;
+}
+
