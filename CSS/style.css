@@ -56,3 +56,19 @@ p{
     z-index: 1;
 }
 
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color: rgb(79, 106, 139);
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
